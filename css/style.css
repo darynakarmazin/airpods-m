@@ -140,6 +140,7 @@ body {
 
 .choose-color__list {
   display: flex;
+  flex-wrap: wrap;
   gap: 40px;
   justify-content: center;
 }
@@ -185,7 +186,7 @@ body {
 }
 
 .case__text {
-  min-width: 825px;
+  max-width: 825px;
   margin: 0 auto 40px;
 }
 
@@ -258,4 +259,27 @@ body {
   justify-content: center;
   align-items: center;
   gap: 0 20px;
+}
+
+@media (max-width: 768px) {
+  .choose-color {
+    padding-bottom: 60px;
+  }
+  .main__title {
+    font-size: 36px;
+  }
+  .composition {
+    margin-bottom: 60px;
+  }
+  .case {
+    padding: 60px 0;
+  }
+  .energy__title {
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+  .energy__num {
+    font-size: 110px;
+    margin-bottom: 20px;
+  }
 }
