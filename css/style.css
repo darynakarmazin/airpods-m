@@ -266,6 +266,9 @@ body {
   .choose-color {
     padding-bottom: 60px;
   }
+  .choose-color__list {
+    gap: 16px;
+  }
   .main__title {
     font-size: 36px;
   }
@@ -282,5 +285,38 @@ body {
   .energy__num {
     font-size: 110px;
     margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 560px) {
+  .choose-color__text {
+    margin-bottom: 40px;
+  }
+  .choose-color {
+    padding-bottom: 40px;
+  }
+  .case {
+    padding: 40px 0;
+  }
+  .composition__inner {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  .composition__inner-text p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 414px) {
+  .choose-color__title,
+  .main__title {
+    font-size: 28px;
+  }
+  .energy__num {
+    font-size: 92px;
+  }
+  .case img {
+    max-width: 100%;
   }
 }
