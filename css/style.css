@@ -151,6 +151,18 @@ body {
   padding: 50px 55px;
 }
 
+.choose-color__btn.choose-color__btn--active {
+  display: none;
+}
+
+.content-item {
+  display: none;
+}
+
+.content-item.content-item__active {
+  display: inline-block;
+}
+
 .composition {
   margin-bottom: 180px;
 }
